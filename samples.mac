@@ -1,0 +1,8 @@
+ROUTINE samples 
+samples ;
+ Set samples = [{"title":"Design new API endpoints","description":"Create RESTful endpoints for user management","status":"new","priority":"high"},{"title":"Fix login authentication bug","description":"Users unable to login with valid credentials","status":"overdue","priority":"critical"},{"title":"Update documentation","description":"Add new API endpoints to developer docs","status":"active","priority":"normal"},{"title":"Implement password reset","description":"Add forgot password functionality","status":"completed","priority":"high"},{"title":"Database optimization","description":"Improve query performance for large datasets","status":"planned","priority":"normal"}]
+ Set iter = samples.%GetIterator()
+ While iter.%GetNext(,.val) {
+    Do ##class(FocusBoard.Data.Task).SaveData(val)
+ }
+ Quit

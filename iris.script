@@ -1,0 +1,9 @@
+    zn "%SYS"
+    do ##class(Security.Users).UnExpireUserPasswords("*")
+    zpm "install passwordless"
+    zn "USER"
+    zpm "load /home/irisowner/dev/ -v":1
+    Do $SYSTEM.OBJ.Load("/home/irisowner/dev/samples.mac","ck")
+    /// run that routine and generate sample error to view in the Erralyzer screen
+    Do ^samples
+    halt
