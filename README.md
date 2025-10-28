@@ -45,7 +45,8 @@ Once the containers are running, open your browser and navigate to:
 http://localhost:52773/csp/user/FocusBoard.Home.cls
 ```
 ## Screenshot
-<img width="1919" height="562" alt="image" src="https://github.com/user-attachments/assets/a51ea351-a3a1-441c-aa33-916cb8e9c36c" />
+<img width="1645" height="615" alt="image" src="https://github.com/user-attachments/assets/51210720-cb19-4dc1-8044-60735bc47448" />
+
 
 ---
 
@@ -56,6 +57,8 @@ http://localhost:52773/csp/user/FocusBoard.Home.cls
 - Double-click to edit task details
 - Dark mode toggle
 - Due dates for tasks
+- Archive your tasks
+- Delete your tasks
 
 ---
 
