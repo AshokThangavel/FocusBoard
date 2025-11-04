@@ -45,20 +45,24 @@ Once the containers are running, open your browser and navigate to:
 http://localhost:52773/csp/user/FocusBoard.Home.cls
 ```
 ## Screenshot
-<img width="1645" height="615" alt="image" src="https://github.com/user-attachments/assets/51210720-cb19-4dc1-8044-60735bc47448" />
+<img width="1398" height="583" alt="image" src="https://github.com/user-attachments/assets/f494edcb-1d16-4934-b04e-58369f64c850" />
 
+
+Add Notes about the task
+<img width="1401" height="747" alt="image" src="https://github.com/user-attachments/assets/537b783f-9eeb-45fb-9fa0-d7c033406ded" />
 
 ---
 
 ## Features
-- Task categorization by status
-- Priority labels for tasks
-- Add, edit, and move tasks easily
-- Double-click to edit task details
-- Dark mode toggle
-- Due dates for tasks
-- Archive your tasks
-- Delete your tasks
+- Task categorization by status.
+- Priority labels for tasks.
+- Add, edit, and move tasks easily.
+- Double-click to edit task details.
+- Add notes about the task.
+- Dark mode toggle.
+- Due dates for tasks.
+- Archive your tasks.
+- Delete your tasks.
 
 ---
 
