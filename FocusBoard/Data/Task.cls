@@ -1,5 +1,6 @@
 Class FocusBoard.Data.Task Extends (%Persistent, %JSON.Adaptor)
 {
+
 Property Title As %String(%JSONFIELDNAME = "title", MAXLEN = 200);
 
 Property Description As %String(%JSONFIELDNAME = "description", MAXLEN = 2000);
@@ -17,6 +18,8 @@ Property ArchivedDate As %TimeStamp;
 Index StatusIdx On Status [ Type = bitmap ];
 
 Index PriorityIdx On Priority [ Type = bitmap ];
+
+Relationship Notes As FocusBoard.Data.TaskNotes [ Cardinality = children, Inverse = Task ];
 
 ClassMethod SaveData(pTaskDetails As %DynamicObject)
 {
