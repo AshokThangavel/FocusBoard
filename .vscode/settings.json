@@ -1,0 +1,7 @@
+{
+    "objectscript.conn": {
+        "active": false,
+        "server": "iris2025ubuntu",
+        "ns": "USER"
+    }
+}
